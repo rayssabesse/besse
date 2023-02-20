@@ -1,0 +1,90 @@
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --blue: rgba(40, 102, 143, 1);
+    --gray: rgba(6, 6, 6, 1);
+    --gray-2: rgba(6, 6, 6, 0.502);
+    --green: rgba(101, 109, 74, 1);
+    --red: rgba(155, 34, 38, 1);
+    --orange: rgba(242, 153, 74, 1);
+    --white: rgba(233, 216, 166, 1);
+
+
+    --font-size-s: 16px;
+    --font-size-m: 18px;
+    --font-size-l: 20px;
+    --font-size-xl: 22px;
+    --font-size-xxl: 27px;
+    --font-size-xxxl: 40px;
+    --font-size-xxxxl: 68px;
+
+    --font-family-ibm_plex_mono: "IBM Plex Mono";
+    --font-family-ibm_plex_sans: "IBM Plex Sans";
+}
+
+
+/* Classes */
+
+.ibmplexmono-normal-gray-25px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibmplexmono-bold-orange-12px {
+    color: var(--orange);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ibmplexmono-bold-gray-64px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ibmplexmono-normal-gray-16px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.ibmplexsans-normal-gray-18px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ibmplexmono-medium-gray-27px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ibmplexmono-medium-gray-35px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-size: 3vw;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ibmplexsans-normal-gray-16px {
+    color: var(--gray);
+    font-family: var(--font-family-ibm_plex_mono);
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}

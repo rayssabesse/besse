@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>besse</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./home.css" rel="stylesheet">
+    <link href="styleguide.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="select-menu">
+            <p class="text" data-target-resolver></p>
+            <div class="color-select" id="color-menu">
+                <!-- <button class="highlight" hidden disabled></button> -->
+                <button class="color-blue-2 btn" id="blue" onclick="select('blue')"></button>
+                <!-- <button class="color-orange-2 btn" id="orange" onclick="select('orange')"></button> -->
+
+                <button class="color-white-2 btn" id="white" onclick="select('white')"></button>
+                <button class="color-green-2 btn" id="green" onclick="select('green')"></button>
+            </div>
+
+            <div class="lang-select" id="lang-menu">
+                <button class="highlight-lang" disabled hidden></button>
+                <button class="ibmplexmono-medium-gray-35px btn border" id="en" onclick="select('en')">en-us</button>
+                
+                <button class="next-button btn" id="next" hidden onclick="select('nxt')"><img class="arrow" src="./assets/south_white_36dp.svg"></button>
+
+                <button class="ibmplexmono-medium-gray-35px btn border" id="pt" onclick="select('pt')">pt-br</button>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

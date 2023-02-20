@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,700,500|IBM+Plex+Sans:400,700,500");
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+@media (min-width: 250px) and (max-width: 359px) {
+    .select-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        background-color: #E1D9D1;
+    }
+
+    .text {
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        color: var(--gray);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 110px;
+    }
+
+    .color-select {
+        display: flex;
+        gap: 40px;
+        margin: 5% 0;
+    }
+
+    .color-white-2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: var(--white);
+    }
+
+    .color-green-2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: var(--green);
+    }
+
+    .color-blue-2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: var(--blue);
+    }
+
+    .lang-select {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        gap: 60px;
+        margin-top: 40px;
+    }
+
+    .highlight {
+        border-color: var(--red);
+        border-width: 3px;
+    }
+
+    .btn {
+        cursor: pointer;
+    }
+
+    .border {
+        border: none;
+        background-color: #E1D9D1;
+    }
+
+    .highlight-lang {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: var(--red);
+        border-width: 3px;
+        background-color: #E1D9D1;
+    }
+
+    .next-button {
+        width: 30px;
+        height: 40px;
+        background-color: var(--red);
+        border: none;
+        border-radius: 40px;
+    }
+
+    .next-button img {
+        background-color: transparent;
+        width: 30px;
+        height: 40px;
+    }
+
+    .next-button:active {
+        transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+    }
+
+    .arrow {
+        background-color: none;
+        filter: none;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 550px) {
+    .select-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        background-color: #E1D9D1;
+    }
+
+    .text {
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        color: var(--gray);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 110px;
+    }
+
+    .color-select {
+        display: flex;
+        gap: 40px;
+        margin: 5% 0;
+    }
+
+    .color-white-2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: var(--white);
+    }
+
+    .color-green-2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: var(--green);
+    }
+
+    .color-blue-2 {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: var(--blue);
+    }
+
+    .lang-select {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        gap: 60px;
+        margin-top: 40px;
+    }
+
+    .highlight {
+        border-color: var(--red);
+        border-width: 3px;
+    }
+
+    .btn {
+        cursor: pointer;
+    }
+
+    .border {
+        border: none;
+        background-color: #E1D9D1;
+    }
+
+    .highlight-lang {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: var(--red);
+        border-width: 3px;
+        background-color: #E1D9D1;
+    }
+
+    .next-button {
+        width: 30px;
+        height: 40px;
+        background-color: var(--red);
+        border: none;
+        border-radius: 40px;
+    }
+
+    .next-button img {
+        background-color: transparent;
+        width: 30px;
+        height: 40px;
+    }
+
+    .next-button:active {
+        transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+    }
+
+    .arrow {
+        background-color: none;
+        filter: none;
+    }
+}
+
+@media (min-width: 551px) and (max-width: 850px) {
+    .select-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        background-color: #E1D9D1;
+    }
+
+    .text {
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        color: var(--gray);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 110px;
+    }
+
+    .color-select {
+        display: flex;
+        gap: 55px;
+        margin: 5% 0;
+    }
+
+    .color-white-2 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: var(--white);
+    }
+
+    .color-green-2 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: var(--green);
+    }
+
+    .color-blue-2 {
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        background-color: var(--blue);
+    }
+
+    .lang-select {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        gap: 60px;
+        margin-top: 40px;
+    }
+
+    .highlight {
+        border-color: var(--red);
+        border-width: 3px;
+    }
+
+    .btn {
+        cursor: pointer;
+    }
+
+    .border {
+        border: none;
+        background-color: #E1D9D1;
+    }
+
+    .highlight-lang {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: var(--red);
+        border-width: 3px;
+        background-color: #E1D9D1;
+    }
+
+    .next-button {
+        width: 30px;
+        height: 40px;
+        background-color: var(--red);
+        border: none;
+        border-radius: 40px;
+    }
+
+    .next-button img {
+        background-color: transparent;
+        width: 30px;
+        height: 40px;
+    }
+
+    .next-button:active {
+        transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+    }
+
+    .arrow {
+        background-color: none;
+        filter: none;
+    }
+}
+
+@media (min-width: 851px) and (max-width: 1200px) {
+    .select-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+        background-color: #E1D9D1;
+    }
+
+    .text {
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        color: var(--gray);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 110px;
+    }
+
+    .color-select {
+        display: flex;
+        gap: 55px;
+        margin: 5% 0;
+    }
+
+    .color-white-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--white);
+    }
+
+    .color-green-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--green);
+    }
+
+    .color-blue-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--blue);
+    }
+
+    .lang-select {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        gap: 60px;
+        margin-top: 40px;
+    }
+
+    .highlight {
+        border-color: var(--red);
+        border-width: 5px;
+    }
+
+    .btn {
+        cursor: pointer;
+    }
+
+    .border {
+        border: none;
+        background-color: #E1D9D1;
+    }
+
+    .highlight-lang {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: var(--red);
+        border-width: 5px;
+        background-color: #E1D9D1;
+    }
+
+    .next-button {
+        width: 50px;
+        height: 60px;
+        background-color: var(--red);
+        border: none;
+        border-radius: 40px;
+    }
+
+    .next-button img {
+        background-color: transparent;
+        width: 40px;
+        height: 50px;
+    }
+
+    .next-button:active {
+        transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+    }
+
+    .arrow {
+        background-color: none;
+        filter: none;
+    }
+}
+
+@media (min-width: 1201px) {
+    .select-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        background-color: #E1D9D1;
+    }
+
+    .text {
+        font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+        color: var(--gray);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 110px;
+        line-height: 110px;
+    }
+
+    .color-select {
+        display: flex;
+        gap: 60px;
+        margin: 5% 0;
+    }
+
+    /* .color-orange-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--orange);
+    } */
+
+    .color-white-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--white);
+    }
+
+    .color-green-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--green);
+    }
+
+    .color-blue-2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: var(--blue);
+    }
+
+    .lang-select {
+        display: flex;
+        width: auto;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .highlight {
+        border-color: var(--red);
+        border-width: 5px;
+    }
+
+    .btn {
+        cursor: pointer;
+    }
+
+    .border {
+        border: none;
+        background-color: #E1D9D1;
+    }
+
+    .highlight-lang {
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom-color: var(--red);
+        border-width: 5px;
+        background-color: #E1D9D1;
+    }
+
+    .next-button {
+        width: 50px;
+        height: 65px;
+        background-color: var(--red);
+        border: none;
+        border-radius: 40px;
+    }
+
+    .next-button img {
+        background-color: transparent;
+        width: 50px;
+        height: 65px;
+    }
+
+    .next-button:active {
+        transform: matrix(0.95, 0, 0, 0.95, 0, 0);
+    }
+
+    .arrow {
+        background-color: none;
+        filter: none;
+    }
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #E1D9D1;
+}
