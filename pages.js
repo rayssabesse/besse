@@ -64,7 +64,7 @@ const resolver = {
 const strings = [
     'print("Hello, World!")',
     'print("Olá, Mundo!")',
-    'print("¡Hola, mundo!")',
+    'print("¡Hola, Mundo!")',
 ];
 
 let counter = 0;
